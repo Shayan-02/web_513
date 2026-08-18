@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Playwrite+NZ+Basic:wght@100..400&family=Vazirmatn:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Noto+Nastaliq+Urdu:wght@400..700&family=Playwrite+NZ+Basic:wght@100..400&family=Vazirmatn:wght@100..900&display=swap');
+
+/* @font-face {
+    font-family: yekan;
+    src: url(./../fonts/Yekan.ttf);
+} */
+
+@font-face {
+    font-family: vazir;
+    src: url(./../fonts/Vazir.ttf),
+             url(./../fonts/Vazir.eot),
+             url(./../fonts/Vazir.woff),
+             url(./../fonts/Vazir.woff2);
+}
+
+*{
+    /* margin: 0;
+    padding: 0; */
+    direction: rtl;
+    /* font-family: Vazirmatn; */
+    /* font-family: "Noto Nastaliq Urdu", serif; */
+    /* font-family: yekan; */
+    font-family: vazir;
+}
+
+h1{
+    color: rgb(58, 109, 153);
+    background-color: rgb(121, 253, 154);
+    padding: 20px 10px 30px 5px;
+    margin: 10px;
+}
+
+ul{
+    list-style: square;
+}
+
+/* ol{
+
+} */
